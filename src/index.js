@@ -2,7 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Cont from './countries';
 import reportWebVitals from './reportWebVitals';
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Cont />
+  </React.StrictMode>,
+  document.getElementById('c')
+);
 
 ReactDOM.render(
   <React.StrictMode>

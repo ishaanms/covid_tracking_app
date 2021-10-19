@@ -24,10 +24,69 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="my-app/src/App.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="App">
+      <header class="App-header">
+        <div class="header">
+          <h1>Covid Tracking App</h1>
+        </div>
+        <div class="main-body">
+        <div class="filter-wrapper">
+          <div class="dropdown">
+          <label for="cars">Choose a country: </label>
+              <div class="Cont" id="c"></div>
+          </div>
+        </div>
+
+        <div class = "card-title-wrapper" >
+            <div class="title-wrapper" id='tw'>
+              
+            </div>
+            <div class="card-wrapper">
+              <div class="im" id="imagecont"></div>
+              <br>
+              <div class="card red-card">
+                <div class="text-content">
+                  <span class="card-title"><strong>Confirmed</strong></span>
+                </div>
+                <div id="confirm">
+                  <p id="confirmedCases">no of cases</p>
+                </div>
+              </div>
+              <div class="card blue-card">
+                <div class="text-content">
+                  <span class="card-title"><strong>Critical</strong></span>
+                </div>
+                <div id="active">
+                  <p id="activeCases">no of cases</p>
+                </div>
+              </div>
+              <div class="card green-card">
+                <div class="text-content">
+                  <span class="card-title"><strong>Recovered</strong></span>
+                </div>
+                <div id="recover">
+                  <p id="recoveredCases">no of cases</p>
+                </div>
+              </div>
+              <div class="card grey-card">
+                <div class="text-content">
+                  <span class="card-title"><strong>Deceased</strong></span>
+                </div>
+                <div id="decease">
+                  <p id="deceasedCases">no of cases</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
