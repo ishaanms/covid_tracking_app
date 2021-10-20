@@ -128,10 +128,10 @@ i {
 .fa-css3 {
   color: #fff;
 }
-.im{
+/* .im{
   width: 40px;
   height: 80px;
-}
+} */
 .red-card:hover {
   box-shadow: 0 14px 28px rgba(247, 0, 0, 0.25), 0 10px 10px rgba(252, 21, 21, 0.22);
   background-color:rgba(252, 21, 21, 0.22);
@@ -239,5 +239,74 @@ i {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media(max-width:1350px){
+  .App-header {
+    background-image: linear-gradient(to right,#029897,#2d3e4d);
+    /* min-height: 100vh; */
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-top: 0px;
+  }
+  .header {
+    /* text-align: center; */
+    background: url("./family-page-exclamation-getty1173616402-1437x400.webp"),linear-gradient(#029897 40%,#2d3e4d 40%);
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* height:120px; */
+    max-width: 100%;
+    height:auto;
+  }
+  .main-body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .filter-wrapper {
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* margin: 10px; */
+  }
+  .dropdown{
+    display: flex;
+    width:70%;
+    /* height:40px; */
+    margin:0px;
+  }
+  .Cont select{
+    margin:0px;
+    width:100%;
+  }
+  .card-title-wrapper {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    display:flex;
+    flex-direction: column;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(45%);
+    height: 200px;
+    position: relative;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
 }
