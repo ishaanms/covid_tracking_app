@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/covid_tracking_app/static/css/main.c0a2be96.chunk.css",
+    "main.js": "/covid_tracking_app/static/js/main.5792a46a.chunk.js",
+    "main.js.map": "/covid_tracking_app/static/js/main.5792a46a.chunk.js.map",
+    "runtime-main.js": "/covid_tracking_app/static/js/runtime-main.ac00a167.js",
+    "runtime-main.js.map": "/covid_tracking_app/static/js/runtime-main.ac00a167.js.map",
+    "static/js/2.f374562c.chunk.js": "/covid_tracking_app/static/js/2.f374562c.chunk.js",
+    "static/js/2.f374562c.chunk.js.map": "/covid_tracking_app/static/js/2.f374562c.chunk.js.map",
+    "static/js/3.a58f5969.chunk.js": "/covid_tracking_app/static/js/3.a58f5969.chunk.js",
+    "static/js/3.a58f5969.chunk.js.map": "/covid_tracking_app/static/js/3.a58f5969.chunk.js.map",
+    "index.html": "/covid_tracking_app/index.html",
+    "static/css/main.c0a2be96.chunk.css.map": "/covid_tracking_app/static/css/main.c0a2be96.chunk.css.map",
+    "static/js/2.f374562c.chunk.js.LICENSE.txt": "/covid_tracking_app/static/js/2.f374562c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/covid_tracking_app/static/media/family-page-exclamation-getty1173616402-1437x400.49476f69.webp",
+    "static/media/logo.6ce24c58.svg": "/covid_tracking_app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac00a167.js",
+    "static/js/2.f374562c.chunk.js",
+    "static/css/main.c0a2be96.chunk.css",
+    "static/js/main.5792a46a.chunk.js"
+  ]
+}
