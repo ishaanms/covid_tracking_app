@@ -7,7 +7,7 @@ async function apiii(selected){
 	}
 })
 const response_1 = await response.json();
-
+console.log(response_1);
 document.getElementById('confirm').innerHTML = `<p>${response_1[0]['confirmed']}</p>`;
 document.getElementById('active').innerHTML = `<p>${response_1[0]['critical']}</p>`;
 document.getElementById('recover').innerHTML = `<p>${response_1[0]['recovered']}</p>`;
